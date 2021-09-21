@@ -1,0 +1,139 @@
+#h1anim {
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: underline;
+    animation: h1animation 0.8s ease-out;
+}
+
+@keyframes h1animation {
+    from {
+        opacity: 0;
+        transform: translateY(-100px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+#letAppear0, #letAppear1, #letAppear2, #letAppear3, #letAppear4 {
+    font-family: Cambria, Cochin, Georgia, serif;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-left: 200px;
+}
+
+#letAppear0 {
+    animation: animLetAppear0 0.8s ease-in;
+}
+
+@keyframes animLetAppear0 {
+    from {
+        opacity: 0;
+        transform: translateX(-300px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+#letAppear1 {
+    animation: animLetAppear1 1s ease-in;
+}
+
+@keyframes animLetAppear1 {
+    from {
+        opacity: 0;
+        transform: translateX(-300px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+#letAppear2 {
+    animation: animLetAppear2 1.2s ease-in;
+}
+
+@keyframes animLetAppear2 {
+    from {
+        opacity: 0;
+        transform: translateX(-300px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+#letAppear3 {
+    animation: animLetAppear3 1.4s ease-in;
+}
+
+@keyframes animLetAppear3 {
+    from {
+        opacity: 0;
+        transform: translateX(-300px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+#letAppear4 {
+    animation: animLetAppear4 1.6s ease-in;
+}
+
+@keyframes animLetAppear4 {
+    from {
+        opacity: 0;
+        transform: translateX(-300px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+input[type="button"] {
+    margin-top: 2em;
+    display: block;
+    background-color: rgb(246, 231, 231);
+}
+
+.container {
+    width: 200px;
+    height: 200px;
+    color: lightcoral;
+    border: 2px outset black;
+    margin-top: 20px;
+    margin-left: 500px;
+    opacity: 0;
+}
+
+.object {
+    display: relative;
+    width: 30px;
+    height: 30px;
+    border: 2px inset black;
+}
+
+.object_anim1{
+    animation: anim_Object 5s ease;
+}
+
+
+
+@keyframes anim_Object {
+    from {
+        transform: translateX(0px);
+    }
+    to {
+        transform: translateX(170px);
+    }
+}
